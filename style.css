@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #8A05BE;
+  min-width: 100vh;
+}
+
+.content{
+  width: 500px;
+  height: 600px;
+  margin-left: 700px;
+  margin-top: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h3{
+  font-size: 25px;
+  padding-top: 60px;
+  padding-left: 170px;
+}
+
+.identificar{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#CPF{
+  padding: 15px;
+  padding-left: 0px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 370px;
+  font-size: 20px;
+}
+
+#CPF:focus{
+  border-style: none;
+  outline: 0;
+}
+
+#senha{
+  padding: 15px;
+  padding-left: 0px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 370px;
+  font-size: 20px;
+}
+
+#senha:focus{
+  border-style: none;
+  outline: 0;
+}
+
+.botao{
+  width: 370px;
+  height: 65px;
+  margin-top: 50px;
+  margin-left: 65px;
+  font-size: 12px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #DCDCDC;
+  border-style: solid;
+  color: #DCDCDC;
+  cursor: pointer;
+}
+
+.link, .link a{
+  text-decoration: none;
+  color: #A020F0;
+  margin: 60px 0px 0px 80px;
+}
+
+.link a:visited{
+  text-decoration: none;
+}
